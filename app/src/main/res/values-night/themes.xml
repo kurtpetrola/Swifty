@@ -1,18 +1,49 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.Swifty" parent="Theme.MaterialComponents.Light">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/white</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+    <!-- Base application theme for dark mode. -->
+    <style name="Theme.Swifty" parent="Theme.MaterialComponents.DayNight">
+
+        <!-- Primary brand color (Header/Toolbar Background). Using a dark color. -->
+        <item name="colorPrimary">@color/dark_background_primary</item>
+
+        <!-- Status Bar color (Header/Toolbar Background). Using a very dark color. -->
+        <item name="colorPrimaryVariant">@color/black</item>
+
+        <!-- Color on primary (Header Text/Icons). Must be light for contrast. -->
+        <item name="colorOnPrimary">@color/light_text_color</item>
+
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">@color/material_on_background_disabled</item>
-        <item name="android:navigationBarColor">@color/white</item>
-        <!-- Customize your theme here. -->
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status Bar Configuration -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- On a dark Status Bar, icons must be light. False ensures light icons. -->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+
+        <!-- Navigation bar color. -->
+        <item name="android:navigationBarColor">@color/black</item>
+
+        <!-- Custom font remains the same. -->
         <item name="android:fontFamily">@font/lexenddeca_bold</item>
+    </style>
+
+    <!-- Required style for InfosActivity, which uses a custom Toolbar -->
+    <style name="Theme.Swifty.NoActionBar" parent="Theme.Swifty">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- For the large, expanded title (bottom of header) -->
+    <style name="Theme.Swifty.CollapsingToolbar.Expanded" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:fontFamily">@font/lexenddeca_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- For the small, collapsed title (top of header) -->
+    <style name="Theme.Swifty.CollapsingToolbar.Collapsed" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:fontFamily">@font/lexenddeca_bold</item>
+        <item name="android:textStyle">bold</item>
     </style>
 </resources>
