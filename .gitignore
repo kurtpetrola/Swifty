@@ -1,15 +1,40 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+#---------------------------------------------------
+# Built application files
+#---------------------------------------------------
+*.apk
+*.aab
+*.ap_
+*.dex
+*.aapt
+*.so
+
+#---------------------------------------------------
+# Files for the Android/Gradle Build System
+#---------------------------------------------------
+.gradle/
+build/
+app/build/ # Added for clarity in multi-module projects
+.externalNativeBuild/
+.cxx/
+
+# Gradle settings
 local.properties
+.DS_Store
+
+#---------------------------------------------------
+# IDEA / Android Studio
+#---------------------------------------------------
+# IDE-specific files
+.idea/
+# Optional exception: uncomment if you share run configurations
+# !.idea/runConfigurations
+
+# Module files
+*.iml
+
+# Keystore files
+*.keystore
+
+# Android Studio navigation and captures
+/captures/
+nav_editor_log.xml
