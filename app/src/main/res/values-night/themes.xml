@@ -39,11 +39,13 @@
     <style name="Theme.Swifty.CollapsingToolbar.Expanded" parent="TextAppearance.MaterialComponents.Headline3">
         <item name="android:fontFamily">@font/lexenddeca_bold</item>
         <item name="android:textStyle">bold</item>
+        <!-- Text color will be inherited from the dark theme's colorOnSurface/Primary -->
     </style>
 
     <!-- For the small, collapsed title (top of header) -->
     <style name="Theme.Swifty.CollapsingToolbar.Collapsed" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
         <item name="android:fontFamily">@font/lexenddeca_bold</item>
         <item name="android:textStyle">bold</item>
+        <!-- Text color will be inherited from the dark theme's colorOnSurface/Primary -->
     </style>
 </resources>
