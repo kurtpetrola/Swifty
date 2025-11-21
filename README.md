@@ -18,3 +18,8 @@ A simple Swift programming language reviewer app.
 
 You can download the latest **Android APK** file and install the application manually from the **[releases page](https://github.com/kurtpetrola/Swifty/releases)**.
 
+## 📜 Disclaimer
+
+- **Educational Project:** This application was developed strictly for educational and portfolio purposes.
+
+- **Asset Ownership:** The app icon and any third-party graphics used are not owned by the developer and are used for demonstrative purposes only.
