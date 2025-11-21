@@ -31,7 +31,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="25dp"
                 android:text="QUESTIONS"
-                android:textColor="@color/black"
+                android:textColor="?attr/colorOnSurface"
                 android:textSize="45sp"
                 android:fontFamily="@font/lexenddeca_black"
                 android:textStyle="bold">
@@ -48,7 +48,8 @@
                 android:text="00:6"
                 android:textSize="24sp"
                 android:fontFamily="@font/lexenddeca_black"
-                android:textStyle="bold">
+                android:textStyle="bold"
+                android:textColor="?attr/colorOnSurface">
 
             </TextView>
 
@@ -63,7 +64,7 @@
                 android:textSize="22dp"
                 android:fontFamily="@font/lexenddeca_regular"
                 android:textStyle="bold"
-                android:textColor="@color/black">
+                android:textColor="?attr/colorOnSurface">
 
             </TextView>
 
@@ -80,7 +81,7 @@
                 android:enabled="true"
                 android:onClick="option1Clicked"
                 android:text="option1"
-                android:textColor="@color/black"
+                android:textColor="?attr/colorOnSurface"
                 android:fontFamily="@font/lexenddeca_black"
                 android:textSize="20dp">
 
@@ -99,7 +100,7 @@
                 android:enabled="true"
                 android:onClick="option2Clicked"
                 android:text="option2"
-                android:textColor="@color/black"
+                android:textColor="?attr/colorOnSurface"
                 android:fontFamily="@font/lexenddeca_black"
                 android:textSize="20dp">
 
@@ -118,7 +119,7 @@
                 android:enabled="true"
                 android:onClick="option3Clicked"
                 android:text="option3"
-                android:textColor="@color/black"
+                android:textColor="?attr/colorOnSurface"
                 android:fontFamily="@font/lexenddeca_black"
                 android:textSize="20dp">
 
@@ -137,7 +138,7 @@
                 android:enabled="true"
                 android:onClick="option4Clicked"
                 android:text="option4"
-                android:textColor="@color/black"
+                android:textColor="?attr/colorOnSurface"
                 android:fontFamily="@font/lexenddeca_black"
                 android:textSize="20dp">
 

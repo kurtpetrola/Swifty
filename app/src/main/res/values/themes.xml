@@ -1,13 +1,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+    <!-- Base application theme (Light Mode). -->
     <style name="Theme.Swifty" parent="Theme.MaterialComponents.Light.DarkActionBar">
 
         <!-- Status bar color is set to the dark variant (@color/purple_700) -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
 
         <!-- Since the Status Bar color is DARK (colorPrimaryVariant), we ensure
-             the icons (time, battery) are LIGHT (white/gray) for visibility.
-             'false' is the default for dark status bars. -->
+              the icons (time, battery) are LIGHT (white/gray) for visibility.
+              'false' is the default for dark status bars. -->
         <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
 
         <!-- Primary brand color. -->
